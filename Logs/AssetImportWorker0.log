@@ -1,0 +1,356 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.31f1 (3409e2af086f) revision 3410402'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 7955 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/marcu/Documents/Moonite/workshp-rec'nplay
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63664
+Successfully changed project path to: C:/Users/marcu/Documents/Moonite/workshp-rec'nplay
+C:/Users/marcu/Documents/Moonite/workshp-rec'nplay
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20504] Host "[IP] 10.0.0.105 [Port] 0 [Flags] 2 [Guid] 321812102 [EditorId] 321812102 [Version] 1048832 [Id] WindowsEditor(7,MarcusNunes) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20504] Host "[IP] 10.0.0.105 [Port] 0 [Flags] 2 [Guid] 321812102 [EditorId] 321812102 [Version] 1048832 [Id] WindowsEditor(7,MarcusNunes) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 78.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.31f1 (3409e2af086f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marcu/Documents/Moonite/workshp-rec'nplay/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007858 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 385 ms
+Refreshing native plugins compatible for Editor in 90.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1191ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (932ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (744ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (528ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.039567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1488ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1210ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (562ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (46.4 KB). Loaded Objects now: 3530.
+Memory consumption went from 112.7 MB to 112.6 MB.
+Total: 3.246200 ms (FindLiveObjects: 0.261400 ms CreateObjectMapping: 0.153400 ms MarkObjects: 2.736900 ms  DeleteObjects: 0.093000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76879.746099 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2
+  artifactKey: Guid(fdf13e0f16c4e854d8052528e43d9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2 using Guid(fdf13e0f16c4e854d8052528e43d9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ac1c65028b395484d8315510d05f13') in 0.008792 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/KayKit Animated Character_v1.2.fbx
+  artifactKey: Guid(f63c709e0f9746948aec65d33762fae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/KayKit Animated Character_v1.2.fbx using Guid(f63c709e0f9746948aec65d33762fae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528150983a17db4876e85841b2db3dd9') in 0.218005 seconds 
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 1.264799 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations
+  artifactKey: Guid(6d236704b189d3045b194258c28c9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations using Guid(6d236704b189d3045b194258c28c9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e862a004c481141150b959e5e2ecfee9') in 0.003014 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.271405 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Attack(1h).fbx
+  artifactKey: Guid(87bf3df9ef112244c8e76ae020653ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Attack(1h).fbx using Guid(87bf3df9ef112244c8e76ae020653ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306f862a0a0a955c3b89c5c91e909515') in 0.042471 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/LayingDownIdle.fbx
+  artifactKey: Guid(856825a1c989e7e40834d06e1d428dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/LayingDownIdle.fbx using Guid(856825a1c989e7e40834d06e1d428dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07496abca3022d0f4d82b9265c0480d7') in 0.045127 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Basepose.fbx
+  artifactKey: Guid(9704a92af4261794a988ed8f9ab04246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Basepose.fbx using Guid(9704a92af4261794a988ed8f9ab04246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebed56ac748112c1cbb4c8f2787e243a') in 0.042394 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Climbing.fbx
+  artifactKey: Guid(ee924469e3725b441a3b37b7a5888952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Climbing.fbx using Guid(ee924469e3725b441a3b37b7a5888952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db4dce39a0896decf2c6d6adc725591') in 0.050069 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Defeat.fbx
+  artifactKey: Guid(4d21697bc646f2841aa24304b22eefeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Defeat.fbx using Guid(4d21697bc646f2841aa24304b22eefeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e6f0bfcf11c8e273f89703b5cf2c64') in 0.046312 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Block.fbx
+  artifactKey: Guid(b71d110c3de2b8d4ab93e1734bef5199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Block.fbx using Guid(b71d110c3de2b8d4ab93e1734bef5199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77533065ab9f4dc74b66b0de3378125') in 0.047287 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Hop.fbx
+  artifactKey: Guid(9e70e7010d54e054ba21661d5205b74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Hop.fbx using Guid(9e70e7010d54e054ba21661d5205b74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f89c049431e48f47e3f3cba7062e82e') in 0.037020 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Walk.fbx
+  artifactKey: Guid(a1efecbabc2de02449d42a3144c0dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Walk.fbx using Guid(a1efecbabc2de02449d42a3144c0dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb68c1b5f5fbc5e18a87e6127a64f1c5') in 0.031618 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/DashBack.fbx
+  artifactKey: Guid(964306704da28d7409810d34cc6c668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/DashBack.fbx using Guid(964306704da28d7409810d34cc6c668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e6546a95d6e06fa9c27d672b8c11d8') in 0.034825 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/PickUp.fbx
+  artifactKey: Guid(4d56b08c92a20ed4b94d17464f95309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/PickUp.fbx using Guid(4d56b08c92a20ed4b94d17464f95309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb08205623591c96202a0a411d5dc13c') in 0.039491 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/AttackSpinning.fbx
+  artifactKey: Guid(8e1a6dd933785194ea4d10c209ceb463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/AttackSpinning.fbx using Guid(8e1a6dd933785194ea4d10c209ceb463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aea2856ab329aedc0c092f1d7f96e1') in 0.030652 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Dance.fbx
+  artifactKey: Guid(479ebb2deba9a654b9749513cc646d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Dance.fbx using Guid(479ebb2deba9a654b9749513cc646d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85f7c75853bc415bb43adf02ece73ba') in 0.030098 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Interact.fbx
+  artifactKey: Guid(0cfcacba1b95f8b40a999f84cbd40d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Interact.fbx using Guid(0cfcacba1b95f8b40a999f84cbd40d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636658bafe3cf325f348156c2e94592b') in 0.036864 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Shooting(1h).fbx
+  artifactKey: Guid(abae7bca3cf5a504192de2e1a4626226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Shooting(1h).fbx using Guid(abae7bca3cf5a504192de2e1a4626226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e8ca8efc368dbaafd61baff6728f94') in 0.028992 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Jump.fbx
+  artifactKey: Guid(b8e714b24b584a64291c8737b7922dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/Jump.fbx using Guid(b8e714b24b584a64291c8737b7922dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2433c17d32a711d2cc46899a0267a12c') in 0.042139 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/DashFront.fbx
+  artifactKey: Guid(b85f0477d6533ae4a9b3104b6ed79eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/fbx/Single Animations/DashFront.fbx using Guid(b85f0477d6533ae4a9b3104b6ed79eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6f99de9a59e406c1ef320c2ef6ea81') in 0.046646 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 39.488796 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/KayKit Brand Resouces/KayKit_logo_black.png
+  artifactKey: Guid(6bda66058e765804ca410e3fdf111c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/KayKit Brand Resouces/KayKit_logo_black.png using Guid(6bda66058e765804ca410e3fdf111c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92975a9d45892de468223fb9046a343d') in 0.043246 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/KayKit Brand Resouces/KayKit_logoVariation_black.png
+  artifactKey: Guid(3d491adaff03eb047a2a04dc61c560a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/KayKit Brand Resouces/KayKit_logoVariation_black.png using Guid(3d491adaff03eb047a2a04dc61c560a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b04db18e1adabe4e4c6655140a0fcf1') in 0.026931 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/KayKit Brand Resouces/KayKit_logoVariation_white.png
+  artifactKey: Guid(11990bf0596346a4994206dd54d5259c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/KayKit Brand Resouces/KayKit_logoVariation_white.png using Guid(11990bf0596346a4994206dd54d5259c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc22deb9436b060a0d70dfbcb77da1a') in 0.026315 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
