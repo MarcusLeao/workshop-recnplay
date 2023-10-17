@@ -17,11 +17,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     float turnSpeed = 30f;
 
-    [SerializeField]
-    Transform groundCheck;
-
-    [SerializeField]
-    LayerMask ground;
     public bool isGrounded;
 
     public CharacterController characterController;
@@ -84,10 +79,5 @@ public class PlayerController : MonoBehaviour
         {
             _animator.SetBool("Move", false);
         }
-    }
-
-    private bool IsGrounded()
-    {
-        return Physics.CheckSphere(groundCheck.position, .1f, ground);
     }
 }
