@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.31f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/marcu/Workshop-Recnplay
+C:/Users/marcu/Documents/Moonite/workshp-rec'nplay
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61306
-Successfully changed project path to: C:/Users/marcu/Workshop-Recnplay
-C:/Users/marcu/Workshop-Recnplay
+63664
+Successfully changed project path to: C:/Users/marcu/Documents/Moonite/workshp-rec'nplay
+C:/Users/marcu/Documents/Moonite/workshp-rec'nplay
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,16 +47,16 @@ C:/Users/marcu/Workshop-Recnplay
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23020] Host "[IP] 10.0.0.105 [Port] 0 [Flags] 2 [Guid] 1002290903 [EditorId] 1002290903 [Version] 1048832 [Id] WindowsEditor(7,MarcusNunes) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27652] Host "[IP] 10.0.0.105 [Port] 0 [Flags] 2 [Guid] 3369883816 [EditorId] 3369883816 [Version] 1048832 [Id] WindowsEditor(7,MarcusNunes) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23020] Host "[IP] 10.0.0.105 [Port] 0 [Flags] 2 [Guid] 1002290903 [EditorId] 1002290903 [Version] 1048832 [Id] WindowsEditor(7,MarcusNunes) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27652] Host "[IP] 10.0.0.105 [Port] 0 [Flags] 2 [Guid] 3369883816 [EditorId] 3369883816 [Version] 1048832 [Id] WindowsEditor(7,MarcusNunes) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 73.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.31f1 (3409e2af086f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/marcu/Workshop-Recnplay/Assets
+[Subsystems] Discovering subsystems at path C:/Users/marcu/Documents/Moonite/workshp-rec'nplay/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -68,99 +68,99 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012064 seconds.
+Registered in 0.014812 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 358 ms
-Refreshing native plugins compatible for Editor in 57.56 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 654 ms
+Refreshing native plugins compatible for Editor in 59.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
+- Completed reload, in  1.421 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1101ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (1422ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (826ms)
-			LoadAssemblies (180ms)
+		EndReloadAssembly (1139ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (108ms)
+			SetupTypeCache (136ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (648ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (928ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (481ms)
+				InitializePlatformSupportModulesInManaged (758ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
+				RefreshPlugins (59ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.044523 seconds.
+Registered in 0.035533 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.404 seconds
+- Completed reload, in  1.522 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1404ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1523ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1146ms)
-			LoadAssemblies (162ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1292ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (708ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (786ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (554ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (596ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (46.8 KB). Loaded Objects now: 3530.
-Memory consumption went from 112.6 MB to 112.6 MB.
-Total: 2.864000 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.073700 ms MarkObjects: 2.489500 ms  DeleteObjects: 0.072400 ms)
+Unloading 23 unused Assets / (46.4 KB). Loaded Objects now: 3530.
+Memory consumption went from 112.7 MB to 112.6 MB.
+Total: 3.052500 ms (FindLiveObjects: 0.242800 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.626400 ms  DeleteObjects: 0.079700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,569 +176,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 76274.058587 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileSlopeLowMedium_teamBlue.obj
-  artifactKey: Guid(c1660da978e92154c9294666824e1978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 76917.135537 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Animations/gltf
+  artifactKey: Guid(e77ec9ba314f7ee4697acc6ed749090b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileSlopeLowMedium_teamBlue.obj using Guid(c1660da978e92154c9294666824e1978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a04a865a0999f76e400e6b04b347749') in 0.427115 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileSlopeMediumHigh_forest.obj
-  artifactKey: Guid(5d1e3315841087f44a9aaf98003fe7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileSlopeMediumHigh_forest.obj using Guid(5d1e3315841087f44a9aaf98003fe7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cef74fc1964c4fb021d0b8411f3aff') in 0.060177 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.541237 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileSlopeLowHigh_teamBlue.obj
-  artifactKey: Guid(f4e4ff0b4f0cc8e4e81bdd247471a016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileSlopeLowHigh_teamBlue.obj using Guid(f4e4ff0b4f0cc8e4e81bdd247471a016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35aaa07c53966a48b49aa573dcbf33d') in 0.053695 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileSlopeLowMedium_desert.obj
-  artifactKey: Guid(05885d18cd7c7c84badb79ff0ad2b470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileSlopeLowMedium_desert.obj using Guid(05885d18cd7c7c84badb79ff0ad2b470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f47d16ea2677d3338b297dea621c2a') in 0.053532 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileLow_teamRed.obj
-  artifactKey: Guid(3fd9a042454d66342a89e910949c387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileLow_teamRed.obj using Guid(3fd9a042454d66342a89e910949c387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba5cbb7f0e703d843c952a52c2ae92a') in 0.046777 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileLow_teamYellow.obj
-  artifactKey: Guid(cc00e44e0d5537d40b0735d075133e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileLow_teamYellow.obj using Guid(cc00e44e0d5537d40b0735d075133e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ffeb50f15292c8193a73b5abff8b02') in 0.045082 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileLow_forest.obj
-  artifactKey: Guid(128d2a5f8bcb95b4abc4bd20d7e7e6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileLow_forest.obj using Guid(128d2a5f8bcb95b4abc4bd20d7e7e6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a180355d49ccc880a32230bdf1f3f9e') in 0.033563 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileMedium_desert.obj
-  artifactKey: Guid(1926fca1419e1e14ba4c678990a4315f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileMedium_desert.obj using Guid(1926fca1419e1e14ba4c678990a4315f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757dc6875bb2108c7b2ee429f6ac836f') in 0.032195 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.061478 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileHigh_teamYellow.obj
-  artifactKey: Guid(debcdd03cb3a27b42b42898014868070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileHigh_teamYellow.obj using Guid(debcdd03cb3a27b42b42898014868070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9048f3260f3f854701abe0082f76d144') in 0.031610 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/target.obj
-  artifactKey: Guid(0ce29bebd2168df4da43c1e14e91eb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/target.obj using Guid(0ce29bebd2168df4da43c1e14e91eb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a974d07abec243b1b1e650d67572f67f') in 0.035891 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/sword_teamBlue.obj
-  artifactKey: Guid(03a98888ed36cc24cbcb81a72cbed631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/sword_teamBlue.obj using Guid(03a98888ed36cc24cbcb81a72cbed631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbc1e8c8f780a4ea21918e035459fc0') in 0.038808 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/swiperDouble_teamYellow.obj
-  artifactKey: Guid(d4f2c2e6e78c6eb4b90e5557e99d33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/swiperDouble_teamYellow.obj using Guid(d4f2c2e6e78c6eb4b90e5557e99d33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbafefd71c888a3804d4709051c86493') in 0.042810 seconds 
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/swiper_teamYellow.obj
-  artifactKey: Guid(14fc1ab1a9834f94cb0352fd83a7dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/swiper_teamYellow.obj using Guid(14fc1ab1a9834f94cb0352fd83a7dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5d299fa38b4d795e004c8652f93509') in 0.043552 seconds 
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileHigh_forest.obj
-  artifactKey: Guid(3a56ddad1b21f5443963c044d4f9f9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileHigh_forest.obj using Guid(3a56ddad1b21f5443963c044d4f9f9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea68e951a134d742c21e7075f71ec942') in 0.033651 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/swiperLong_teamBlue.obj
-  artifactKey: Guid(8f18abb114a2afc4f87f62a76b930da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/swiperLong_teamBlue.obj using Guid(8f18abb114a2afc4f87f62a76b930da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3432cc8cce22f70efd794c3d4546d86e') in 0.044751 seconds 
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileHigh_teamRed.obj
-  artifactKey: Guid(2949ab2831e6f17419b79d0463bbb074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/tileHigh_teamRed.obj using Guid(2949ab2831e6f17419b79d0463bbb074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c80e6031751cc33e1b2f81a0e17ae11') in 0.032704 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.005508 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/rocksB_forest.obj
-  artifactKey: Guid(dd59680141d073642810299a4dfe58ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/rocksB_forest.obj using Guid(dd59680141d073642810299a4dfe58ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9dffebf64611102498ac2b06096f91') in 0.028754 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/rocksA_forest.obj
-  artifactKey: Guid(a31b4390a602f8c45a727cba1045e2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/rocksA_forest.obj using Guid(a31b4390a602f8c45a727cba1045e2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798981383208e03b5aba274df07f08bc') in 0.029509 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/slingshot_teamYellow.obj
-  artifactKey: Guid(a162c5524a438774693830f6cae9802c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/obj/slingshot_teamYellow.obj using Guid(a162c5524a438774693830f6cae9802c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327d9e825af658edcc433a249b58aba2') in 0.029601 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 6.492278 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx
-  artifactKey: Guid(22f79d8e31b07fe44ad7b2b7f5fc0ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx using Guid(22f79d8e31b07fe44ad7b2b7f5fc0ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53553d4f837991c0b43d418bf90ee45') in 0.002893 seconds 
+Start importing Assets/Packages/KayKit Character Animations 1.2/Animations/gltf using Guid(e77ec9ba314f7ee4697acc6ed749090b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203a5eea3f00f32ced37c65ca5218e98') in 0.010213 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.111389 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/arrow_teamBlue.fbx
-  artifactKey: Guid(f89da210d95c9bf478f973a0d90a3141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3.750260 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/KayKit Brand Resouces
+  artifactKey: Guid(953f95ace2355504f911fb02a690f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/arrow_teamBlue.fbx using Guid(f89da210d95c9bf478f973a0d90a3141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e38a8078bf3b66847ffe9f80302a584') in 0.049622 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/barrierMedium.fbx
-  artifactKey: Guid(62c7fdcb7c01c5641b27fe494fcd30f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/barrierMedium.fbx using Guid(62c7fdcb7c01c5641b27fe494fcd30f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02a05f99c50f810bc09092715aef822') in 0.042212 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/barrierStrut.fbx
-  artifactKey: Guid(7e22f707e52fb244f9a63b2da87abaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/barrierStrut.fbx using Guid(7e22f707e52fb244f9a63b2da87abaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb692c4c1d052afd41130632f419fd0') in 0.050481 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/diamond_teamYellow.fbx
-  artifactKey: Guid(6450f86211b086d4fb7053b7dbe65ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/diamond_teamYellow.fbx using Guid(6450f86211b086d4fb7053b7dbe65ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090b56d27624e4c2356e146df0604d8e') in 0.044874 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/heart_teamYellow.fbx
-  artifactKey: Guid(77a0007714851544fae6199e76ae1b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/heart_teamYellow.fbx using Guid(77a0007714851544fae6199e76ae1b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7a56d9686b4b1649d7524798008bcd') in 0.043331 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/blaster_teamYellow.fbx
-  artifactKey: Guid(f2df1308cc04ee94abd7db741436a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/blaster_teamYellow.fbx using Guid(f2df1308cc04ee94abd7db741436a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e347f7cf860383e9a41d8d2ea3a19bc0') in 0.038667 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/button_teamRed.fbx
-  artifactKey: Guid(23119343dd46a374ba9df1111ac29253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/button_teamRed.fbx using Guid(23119343dd46a374ba9df1111ac29253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddea553150e9fff7acc800aa4121be3') in 0.029021 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/bow_teamYellow.fbx
-  artifactKey: Guid(978beb07ae4624b4e89683ff7e1b7a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/bow_teamYellow.fbx using Guid(978beb07ae4624b4e89683ff7e1b7a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a34b450413eee0f85e39733b661672') in 0.029880 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/barrierFloor.fbx
-  artifactKey: Guid(ce3e9b60b6306be4b8485b84f4a5142f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/barrierFloor.fbx using Guid(ce3e9b60b6306be4b8485b84f4a5142f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd335e8610efe5acfc397f6e8cb4366') in 0.019649 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/gateSmallWide_teamRed.fbx
-  artifactKey: Guid(f00996beaf0164f4ca9c0d7fb2b1fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/gateSmallWide_teamRed.fbx using Guid(f00996beaf0164f4ca9c0d7fb2b1fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1b75a837bae4b3808a678852afa728') in 0.019058 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/blaster_teamRed.fbx
-  artifactKey: Guid(8dcb977cf9a087c4487c490d28092b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/blaster_teamRed.fbx using Guid(8dcb977cf9a087c4487c490d28092b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82860636bb36ed6e1d37fb4cb771babd') in 0.025048 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/diamond_teamRed.fbx
-  artifactKey: Guid(28fc59b09b351914298b1642ee352722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/diamond_teamRed.fbx using Guid(28fc59b09b351914298b1642ee352722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564e7dbd513a68737c3fb6d2598b285e') in 0.022006 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/gateSmall_teamBlue.fbx
-  artifactKey: Guid(3292373172f3a6943894e1de54de8694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/gateSmall_teamBlue.fbx using Guid(3292373172f3a6943894e1de54de8694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01aac2aea3a17ce8fc7358b8cd78ebb8') in 0.018711 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/gateSmall_teamYellow.fbx
-  artifactKey: Guid(00dd1a6ccceb846419c1be407cba4fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/gateSmall_teamYellow.fbx using Guid(00dd1a6ccceb846419c1be407cba4fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35304949180a6e26d3af419c96d3ee5a') in 0.022764 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/bow_teamBlue.fbx
-  artifactKey: Guid(7e1b0e697c5e292429c35be398027274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/bow_teamBlue.fbx using Guid(7e1b0e697c5e292429c35be398027274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a02149cd62c47997ef255442a6d1e06') in 0.038237 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/hoop_teamBlue.fbx
-  artifactKey: Guid(6180a8bb633e9af4d9d3a2a527dfb16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/hoop_teamBlue.fbx using Guid(6180a8bb633e9af4d9d3a2a527dfb16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd75970a82d0bdc920a15b58e95b7f1') in 0.025958 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/gateLargeWide_teamYellow.fbx
-  artifactKey: Guid(3f11681918d2b8f42bedbd30035bfc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/gateLargeWide_teamYellow.fbx using Guid(3f11681918d2b8f42bedbd30035bfc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a714806090fab9ab87d2d26257c4a499') in 0.018294 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 4.813527 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/Characters/Bear/dae
-  artifactKey: Guid(a4de013ad29d6264fa5f6600007ea163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/Characters/Bear/dae using Guid(a4de013ad29d6264fa5f6600007ea163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13faa4e27c946b8fe662504220fa4bcf') in 0.002373 seconds 
+Start importing Assets/Packages/KayKit Character Animations 1.2/KayKit Brand Resouces using Guid(953f95ace2355504f911fb02a690f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa80c12a2a1ef0a0eadde8119ad4b37') in 0.002425 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.089940 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/Characters/Bear/dae/character_bear.dae
-  artifactKey: Guid(1f3445cd44991054b88db028b527aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.833714 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/KayKit Brand Resouces/KayKit_logo.png
+  artifactKey: Guid(f64336b90b18ca84e8c509b56351b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/Characters/Bear/dae/character_bear.dae using Guid(1f3445cd44991054b88db028b527aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392ec271e84bd2f289ca7876b325c980') in 0.043391 seconds 
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 19.579797 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/hoop_teamRed.fbx
-  artifactKey: Guid(835c435fda61f0d4aac848d7fff5d000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/hoop_teamRed.fbx using Guid(835c435fda61f0d4aac848d7fff5d000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a42c73484905c9b10073bbd7abcc50e') in 0.034446 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/powerupBomb.fbx
-  artifactKey: Guid(881ade7b5a9990544ad62b3a6d8379bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/powerupBomb.fbx using Guid(881ade7b5a9990544ad62b3a6d8379bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bd5bf28fd6406e0c3cd7a130465706') in 0.062971 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/plantA_desert.fbx
-  artifactKey: Guid(87dc87ec46c77ef4baed8488a1bbab91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/plantA_desert.fbx using Guid(87dc87ec46c77ef4baed8488a1bbab91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662887fe73430747091aea68f4c688fa') in 0.044481 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/plantB_desert.fbx
-  artifactKey: Guid(73e543a25e359fe4d970683e89b2ff3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/plantB_desert.fbx using Guid(73e543a25e359fe4d970683e89b2ff3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee3964481db0cedaa9c44f6dbe8dcec') in 0.049373 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.114296 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/ring_teamRed.fbx
-  artifactKey: Guid(997e5af39e5ea6246adac3617056af23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/ring_teamRed.fbx using Guid(997e5af39e5ea6246adac3617056af23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2595a67d106df552c2e1370f66a562') in 0.018486 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/slingshot_teamBlue.fbx
-  artifactKey: Guid(a9286b3fc84d06d43891cec19f540330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/slingshot_teamBlue.fbx using Guid(a9286b3fc84d06d43891cec19f540330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447d8116eb05ddd8809bc2a732a93ae3') in 0.022346 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/spikeRoller.fbx
-  artifactKey: Guid(703b19353c474f3448edeef06b4efcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/spikeRoller.fbx using Guid(703b19353c474f3448edeef06b4efcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6963727d3de9262623fe4642b1ecd8') in 0.033748 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/slingshot_teamRed.fbx
-  artifactKey: Guid(9d4b958f3e129eb45879d98bd4d53f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/slingshot_teamRed.fbx using Guid(9d4b958f3e129eb45879d98bd4d53f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb74b7e6155fb5ff1947117a7d9797f5') in 0.024249 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.334855 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/swiper_teamRed.fbx
-  artifactKey: Guid(c204e5c4b23e58c4fb7520d09e3f3700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/swiper_teamRed.fbx using Guid(c204e5c4b23e58c4fb7520d09e3f3700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6947ab3ecf36b0bd73debae192a739b') in 0.026479 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/sword_teamYellow.fbx
-  artifactKey: Guid(772fbf8ed5f747540a18d0d0b67d516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/sword_teamYellow.fbx using Guid(772fbf8ed5f747540a18d0d0b67d516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb0ac4b74daf6de8564a0eb32bbbc37') in 0.024864 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/sword_teamRed.fbx
-  artifactKey: Guid(a79c1a12ddd353f4792915bc0b0837b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/sword_teamRed.fbx using Guid(a79c1a12ddd353f4792915bc0b0837b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b0b04648a594f08a618f0e33466f14') in 0.028719 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/sword_teamBlue.fbx
-  artifactKey: Guid(82aa18dee7ee7764898a8d7b2f619238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/sword_teamBlue.fbx using Guid(82aa18dee7ee7764898a8d7b2f619238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541dacdcd1f6465971b0a6f204ed35f5') in 0.031769 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileHigh_teamBlue.fbx
-  artifactKey: Guid(5cb6604015c90954baa0e3db062197d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileHigh_teamBlue.fbx using Guid(5cb6604015c90954baa0e3db062197d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428454ccc4b1453b502ea22abe4b3f9f') in 0.031228 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileHigh_teamYellow.fbx
-  artifactKey: Guid(eb491cbf831334c429a5b8c0ce35e833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileHigh_teamYellow.fbx using Guid(eb491cbf831334c429a5b8c0ce35e833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a3da4ee8455123f58ba6c6056c9496') in 0.027094 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileLow_teamRed.fbx
-  artifactKey: Guid(52cf97f4e5f746747a26144931d4cf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileLow_teamRed.fbx using Guid(52cf97f4e5f746747a26144931d4cf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1bb58c0cdbfaabd3e0cf073ec93c7e') in 0.027152 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileLarge_forest.fbx
-  artifactKey: Guid(fb1c46842526757469d531650e373481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileLarge_forest.fbx using Guid(fb1c46842526757469d531650e373481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796a957e4544202aae4c1f62cc419a59') in 0.026172 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileMedium_forest.fbx
-  artifactKey: Guid(b233c7a59f25c874ebc096947b1db2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileMedium_forest.fbx using Guid(b233c7a59f25c874ebc096947b1db2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d814405628ff9fa4789694a4ec7374') in 0.028173 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileMedium_teamRed.fbx
-  artifactKey: Guid(0c0ca8d81ca55d740a96de8cacb025b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileMedium_teamRed.fbx using Guid(0c0ca8d81ca55d740a96de8cacb025b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0594ebbed430c5f87138d1b9746a1c6') in 0.028789 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileLarge_teamRed.fbx
-  artifactKey: Guid(ae227de271702794cb645d94a55730e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileLarge_teamRed.fbx using Guid(ae227de271702794cb645d94a55730e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0be49afb7a50217d6e1cd20c54459f') in 0.027441 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/swiperDouble_teamYellow.fbx
-  artifactKey: Guid(409fbba4f44d4294587d9a394dc0fb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/swiperDouble_teamYellow.fbx using Guid(409fbba4f44d4294587d9a394dc0fb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70c6737623152c7f08c51db5ad098ee') in 0.038838 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.197460 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileSlopeLowHigh_teamRed.fbx
-  artifactKey: Guid(8c23aeed9b43f854bb331e7e918d49e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileSlopeLowHigh_teamRed.fbx using Guid(8c23aeed9b43f854bb331e7e918d49e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8a4dc361517116d4a93f7610acef7d') in 0.018795 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileSlopeMediumHigh_desert.fbx
-  artifactKey: Guid(5483cccda1b5ced4d86215c5d12642a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileSlopeMediumHigh_desert.fbx using Guid(5483cccda1b5ced4d86215c5d12642a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fae80147392d6b47ebba685fc85697b') in 0.022496 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileSlopeLowMedium_forest.fbx
-  artifactKey: Guid(9db68f910ac0e3c4da24c6692ffad150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileSlopeLowMedium_forest.fbx using Guid(9db68f910ac0e3c4da24c6692ffad150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b1f26c81219573dc13987b228a1157') in 0.022297 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tree_forest.fbx
-  artifactKey: Guid(13a4a25ad7e24184ba0b953d9b182080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tree_forest.fbx using Guid(13a4a25ad7e24184ba0b953d9b182080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03ad27469de86ca9933c1f28db9328f') in 0.024899 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tree_desert.fbx
-  artifactKey: Guid(e6bd72898d0ebe046869ae832c1d2775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tree_desert.fbx using Guid(e6bd72898d0ebe046869ae832c1d2775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12ee4037185c9c947f5b7004a7ead03') in 0.021579 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileSmall_teamYellow.fbx
-  artifactKey: Guid(ff63e01624517514bb31e076c60eab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileSmall_teamYellow.fbx using Guid(ff63e01624517514bb31e076c60eab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caee183d15e174ba5e4674487929a89f') in 0.030018 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileSmall_forest.fbx
-  artifactKey: Guid(0911c8f49838b54428953a0407492bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/Models/fbx/tileSmall_forest.fbx using Guid(0911c8f49838b54428953a0407492bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e56123fc40eb5c395d740bad242017f') in 0.030448 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 32.803947 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(84d51e2ae7e1ed545b48122d766f775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes using Guid(84d51e2ae7e1ed545b48122d766f775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7bb905563f9027ff07c68ab381b6ee') in 0.003221 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.999550 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/KayKit Brand Resouces
-  artifactKey: Guid(8459c69d91c5d3343a5066679888f218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/KayKit Brand Resouces using Guid(8459c69d91c5d3343a5066679888f218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477e98ded12f9becd122a15f2043d531') in 0.002319 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.117094 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/KayKit Brand Resouces/KayKit_logo.png
-  artifactKey: Guid(2f7bcea7e8b6ab84b9830df79b4b2ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/KayKit Brand Resouces/KayKit_logo.png using Guid(2f7bcea7e8b6ab84b9830df79b4b2ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d84088d734a25f0a17052f3ee5944e9') in 0.036432 seconds 
+Start importing Assets/Packages/KayKit Character Animations 1.2/KayKit Brand Resouces/KayKit_logo.png using Guid(f64336b90b18ca84e8c509b56351b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830c029d016f73b6f1c80acea15878c8') in 0.112584 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/KayKit Brand Resouces/KayKit_logoVariation_white.png
-  artifactKey: Guid(292a8d21da1771048be7dc27b1ac0e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 2.257156 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Documentation
+  artifactKey: Guid(db2f07d3540aa73448e9ece21957a480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/KayKit Brand Resouces/KayKit_logoVariation_white.png using Guid(292a8d21da1771048be7dc27b1ac0e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879d285769a5f2806467c4e400fae8ff') in 0.024617 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Packages/KayKit Character Animations 1.2/Documentation using Guid(db2f07d3540aa73448e9ece21957a480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b1612290ba80f029b1c975f713c29a') in 0.003802 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.270437 seconds.
-  path: Assets/Packages/KayKit Mini-Game Variety Pack 1.2/License.txt
-  artifactKey: Guid(c51be7e12184eff40bfd2d92c31da363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.527631 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Documentation/Godot - KayKit Animations Implementation Guide.pdf
+  artifactKey: Guid(74e575262e983764193eca333dcc2228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/KayKit Mini-Game Variety Pack 1.2/License.txt using Guid(c51be7e12184eff40bfd2d92c31da363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263091fcf23b9f0641a13b645d2ae552') in 0.030200 seconds 
+Start importing Assets/Packages/KayKit Character Animations 1.2/Documentation/Godot - KayKit Animations Implementation Guide.pdf using Guid(74e575262e983764193eca333dcc2228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cdf3191c0882878959908bbffe4377') in 0.010338 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.751096 seconds.
+  path: Assets/Packages/KayKit Character Animations 1.2/Documentation/Unity - KayKit Animations Implementation Guide.pdf
+  artifactKey: Guid(0f476ff959f8e0f4d81b3d936d1f23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Packages/KayKit Character Animations 1.2/Documentation/Unity - KayKit Animations Implementation Guide.pdf using Guid(0f476ff959f8e0f4d81b3d936d1f23fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb76279595c2387bebe7dced699fed6a') in 0.004219 seconds 
 Number of asset objects unloaded after import = 1
