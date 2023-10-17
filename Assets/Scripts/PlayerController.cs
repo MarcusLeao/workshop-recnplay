@@ -16,11 +16,19 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     float turnSpeed = 30f;
-    public bool isGrounded;
-    public CharacterController characterController;
 
-    public float threshold;
-    public Transform spawnPoint;
+    [SerializeField]
+    bool isGrounded;
+
+    [SerializeField]
+    CharacterController characterController;
+
+    //Respawn
+    [SerializeField]
+    float threshold;
+
+    [SerializeField]
+    Transform spawnPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -38,15 +46,8 @@ public class PlayerController : MonoBehaviour
         Vector3 direction = new Vector3(horizontalInput, 0, verticalInput);
         direction.Normalize();
         float magnitude = direction.magnitude;
-        magnitude = Mathf.Clamp01(magnitude);
 
         ySpeed += Physics.gravity.y * Time.deltaTime;
-        if (Input.GetButtonDown("Jump"))
-        {
-            ySpeed = -0.5f;
-            isGrounded = false;
-        }
-
         Vector3 vel = direction * magnitude;
         vel.y = ySpeed;
         characterController.Move(vel * Time.deltaTime);

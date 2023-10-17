@@ -5,15 +5,27 @@ using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
-    public NavMeshAgent enemy;
-    public Transform player;
+    [SerializeField]
+    NavMeshAgent enemy;
+
+    [SerializeField]
+    Transform player;
     private Animator _animator;
 
-    public float timer = 5f;
-    public float bulletTime;
-    public GameObject enemyBullet;
-    public Transform bulletSpawnPoint;
-    public float bulletSpeed;
+    [SerializeField]
+    float timer = 5f;
+
+    [SerializeField]
+    float bulletTime;
+
+    [SerializeField]
+    GameObject enemyBullet;
+
+    [SerializeField]
+    Transform bulletSpawnPoint;
+
+    [SerializeField]
+    float bulletSpeed;
 
     // Start is called before the first frame update
     void Start()

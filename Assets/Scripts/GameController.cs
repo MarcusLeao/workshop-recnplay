@@ -6,14 +6,16 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject gameOver,
+    [SerializeField]
+    GameObject gameOver,
         heart1,
         heart2,
         heart3;
     public static int health;
     public static int score = 0;
 
-    public TextMeshProUGUI scoreText;
+    [SerializeField]
+    TextMeshProUGUI scoreText;
 
     // Start is called before the first frame update
     void Start()

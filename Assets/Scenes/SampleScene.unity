@@ -393,7 +393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2802261573809160253, guid: a51b87aa8f6adf642981adffda8c1d5e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 2.589
       objectReference: {fileID: 0}
     - target: {fileID: 2802261573809160253, guid: a51b87aa8f6adf642981adffda8c1d5e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -433,7 +433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3290005565491583623, guid: a51b87aa8f6adf642981adffda8c1d5e, type: 3}
       propertyPath: m_Name
-      value: diamond_teamYellow 1
+      value: Diamond
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a51b87aa8f6adf642981adffda8c1d5e, type: 3}
@@ -2805,6 +2805,10 @@ PrefabInstance:
       propertyPath: turnSpeed
       value: 720
       objectReference: {fileID: 0}
+    - target: {fileID: 8016669517093777243, guid: 358a8e430b2af554aaf026c5e086fe90, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1482375890}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 358a8e430b2af554aaf026c5e086fe90, type: 3}
 --- !u!23 &4360545690261540166
