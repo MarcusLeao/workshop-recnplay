@@ -347,6 +347,16 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Joystick Pack/Examples/JoystickPlayerExample.cs"
+"Assets/Joystick Pack/Examples/JoystickSetterExample.cs"
+"Assets/Joystick Pack/Scripts/Base/Joystick.cs"
+"Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs"
+"Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
+"Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
+"Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
+"Assets/Scripts/BulletScript.cs"
+"Assets/Scripts/CoinsSpawner.cs"
+"Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 

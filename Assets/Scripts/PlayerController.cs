@@ -16,10 +16,11 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     float turnSpeed = 30f;
-
     public bool isGrounded;
-
     public CharacterController characterController;
+
+    public float threshold;
+    public Transform spawnPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -78,6 +79,14 @@ public class PlayerController : MonoBehaviour
         else
         {
             _animator.SetBool("Move", false);
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if (transform.position.y < threshold)
+        {
+            transform.position = spawnPoint.position;
         }
     }
 }
