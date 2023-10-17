@@ -359,6 +359,7 @@
 "Assets/Scripts/BulletScript.cs"
 "Assets/Scripts/CoinsSpawner.cs"
 "Assets/Scripts/EnemyController.cs"
+"Assets/Scripts/GameController.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 

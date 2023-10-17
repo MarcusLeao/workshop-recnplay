@@ -87,6 +87,7 @@ public class PlayerController : MonoBehaviour
         if (transform.position.y < threshold)
         {
             transform.position = spawnPoint.position;
+            GameController.health -= 1;
         }
     }
 }

@@ -50,6 +50,6 @@ public class EnemyController : MonoBehaviour
 
         Rigidbody bulletRig = bulletObj.GetComponent<Rigidbody>();
         bulletRig.AddForce(bulletRig.transform.forward * bulletSpeed);
-        Destroy(bulletObj, 5f);
+        Destroy(bulletObj, 3f);
     }
 }

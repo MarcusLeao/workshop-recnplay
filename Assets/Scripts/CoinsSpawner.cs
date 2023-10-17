@@ -22,6 +22,7 @@ public class CoinsSpawner : MonoBehaviour
             Destroy(gameObject);
             Vector3 randomPosition = new Vector3(Random.Range(-5, 5), 3, Random.Range(-5, 5));
             Instantiate(theCoin, randomPosition, Quaternion.identity);
+            GameController.score += 50;
         }
     }
 }
