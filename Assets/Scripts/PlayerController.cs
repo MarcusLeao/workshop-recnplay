@@ -8,20 +8,20 @@ public class PlayerController : MonoBehaviour
     private Animator _animator;
 
     [SerializeField]
+    CharacterController characterController;
+
+    [SerializeField]
     float movementSpeed = 2f;
 
     [SerializeField]
     float jumpForce = 5f;
-    float ySpeed;
-
-    [SerializeField]
-    float turnSpeed = 30f;
+    private float ySpeed;
 
     [SerializeField]
     bool isGrounded;
 
     [SerializeField]
-    CharacterController characterController;
+    float turnSpeed = 30f;
 
     //Respawn
     [SerializeField]
@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Get Movement Direction
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
@@ -47,6 +48,7 @@ public class PlayerController : MonoBehaviour
         direction.Normalize();
         float magnitude = direction.magnitude;
 
+        //Jump
         ySpeed += Physics.gravity.y * Time.deltaTime;
         Vector3 vel = direction * magnitude;
         vel.y = ySpeed;
@@ -65,8 +67,10 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        //Move and Rotate
         if (direction != Vector3.zero)
         {
+            //Rotate
             Quaternion toRotate = Quaternion.LookRotation(direction, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(
                 transform.rotation,
@@ -74,6 +78,7 @@ public class PlayerController : MonoBehaviour
                 turnSpeed * Time.deltaTime
             );
 
+            //Move
             _animator.SetBool("Move", true);
             characterController.SimpleMove(direction * magnitude * movementSpeed);
         }
